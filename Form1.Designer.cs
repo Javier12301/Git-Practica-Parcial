@@ -33,6 +33,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.lblNumerador = new System.Windows.Forms.Label();
             this.lblDenominador = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -76,11 +77,22 @@
             this.lblDenominador.TabIndex = 2;
             this.lblDenominador.Text = "Denominador";
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(119, 87);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(83, 19);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(257, 179);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.lblDenominador);
             this.Controls.Add(this.lblNumerador);
             this.Controls.Add(this.textBox2);
@@ -100,5 +112,6 @@
         private TextBox textBox2;
         private Label lblNumerador;
         private Label lblDenominador;
+        private CheckBox checkBox1;
     }
 }
